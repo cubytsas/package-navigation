@@ -1,0 +1,43 @@
+{
+  "name": "@cubyt/navigation",
+  "version": "1.0.0",
+  "description": "Browser navigation and safe redirect helpers for Cubyt apps",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CubytsAS/package-navigation.git"
+  },
+  "homepage": "https://github.com/CubytsAS/package-navigation#readme",
+  "bugs": {
+    "url": "https://github.com/CubytsAS/package-navigation/issues"
+  },
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./redirect": {
+      "types": "./types/redirect.d.ts",
+      "import": "./src/redirect.js",
+      "default": "./src/redirect.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "types",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

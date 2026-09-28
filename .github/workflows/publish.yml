@@ -1,0 +1,12 @@
+name: Publish to npm
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    uses: CubytsAS/.github/.github/workflows/npm-publish.yml@main
+    secrets: inherit
