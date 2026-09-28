@@ -1,6 +1,6 @@
 {
   "name": "@cubyt/navigation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browser navigation and safe redirect helpers for Cubyt apps",
   "license": "MIT",
   "repository": {
