@@ -31,6 +31,7 @@
     "src",
     "types",
     "README.md",
+    "CHANGELOG.md",
     "LICENSE"
   ],
   "sideEffects": false,
